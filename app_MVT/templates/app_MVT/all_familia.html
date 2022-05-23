@@ -1,0 +1,13 @@
+{% extends "app_MVT/index.html" %}
+{% load static %}
+{% block contenidoQueCambia %}
+
+<h1>Lista de familiares ingresados</h1>
+
+<ul>
+    {% for familia in familia %}
+        <li>Numero: {{familia.numero}}  --  Nombre: {{familia.nombre}}   --    Fecha de ingreso: {{familia.fechaDeEntrega}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}    
