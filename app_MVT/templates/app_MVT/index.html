@@ -24,8 +24,10 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="{% url 'index' %}">Inicio</a>
-                <a class="navbar-brand" href="{% url 'all_familia' %}">Lista de familiares</a>
+                <a class="navbar-brand" href="{% url 'inicio' %}">Inicio</a>
+                <a class="navbar-brand" href="{% url 'futbol' %}">Lista de futbolistas</a>
+                <a class="navbar-brand" href="{% url 'basquet' %}">Lista de basquetbolistas</a>
+                <a class="navbar-brand" href="{% url 'tenis' %}">Lista de tenistas</a>
             </div>
         </nav>
         <!-- Masthead-->
@@ -35,7 +37,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">MI PRIMER MVT</h1>
+                            <h1 class="mb-5">CLUB SARSFIELD <br> EL PRIMERO EN SER UN GRAN CLUB</h1>
                             <div class="text-lg-start text-white">
                                 {% block contenidoQueCambia %}
 
