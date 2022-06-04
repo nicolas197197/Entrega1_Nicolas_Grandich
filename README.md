@@ -2,11 +2,9 @@
 
 - Clonar el proyecto y cambiar de rama
 ```bash
-git clone https://github.com/coder-live-class/django-coderhouse-project.git
+git clone https://github.com/nicolas197197/Entrega1_Nicolas_Grandich.git
 
-cd django-coderhouse-project
-
-git checkout class_21
+cd Mi_primer_MVT
 
 ```
 
